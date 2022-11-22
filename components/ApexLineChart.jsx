@@ -11,7 +11,7 @@ const ApexLineChart = ({ words , count }) => {
           labels: words,
           datasets: [
             {
-              label: "Number of the most occurred words",
+              label: "words with highest occurrence",
               data: count,
               fill: true,
               backgroundColor: "rgba(75,192,192)",
